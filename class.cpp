@@ -44,18 +44,8 @@ bool Square::set_bool_values(bool size){
 	}
 }
 
-int main(int argc, char *argv[]){
+int main(){
 	
-	if(argc < 1)
-	{
-		cout << "No argumens given";
-
-		return 1;
-	}else
-	{
-		cout << argv[1] << "\n";
-	}
-
 	Square mySquare;
 	
 	string inputString;
